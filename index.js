@@ -88,7 +88,7 @@ const start = () => {
         `Напишите нашему HR менеджеру для записи на собеседование :)`
       );
       await bot.sendMessage(chatId, `@denstrike`);
-      await bot.sendMessage(1256263042, `@${username}`);
+      await bot.sendMessage(5620408443, `@${username}`);
     }
     if (data === "no") {
       await bot.sendMessage(chatId, `Жаль, хорошего дня!`);
